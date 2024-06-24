@@ -15,8 +15,8 @@ module Sorcery
         super
 
         @site          = 'https://login.microsoftonline.com'
-        @auth_url      = '/common/oauth2/v2.0/authorize'
-        @token_url     = '/common/oauth2/v2.0/token'
+        @auth_url      = '34b38c17-ee08-47b6-bdc6-927957eb2bbc/oauth2/v2.0/authorize'
+        @token_url     = '/34b38c17-ee08-47b6-bdc6-927957eb2bbc/oauth2/v2.0/token'
         @user_info_url = 'https://graph.microsoft.com/v1.0/me'
         @scope         = 'openid email https://graph.microsoft.com/User.Read'
         @state         = SecureRandom.hex(16)
